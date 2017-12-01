@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  
+</head>
+<body>
+
+  <div class="container-fluid">
+  <div class="row bg-success text-white">
+  <div class="col-12">
+  <h1 class="text-center"> DACA Project</h1>
+  <br>
+  </div>
+  </div>
+  <div class="row ">
+  <div class="col-12"> 
+  <img src="DACAprotest.jpg" class="img-fluid"> 
+  </div>
+  </div>
+
+  <div class="row bg-primary text-white">
+  <div class="col-12">
+  <h3 class="text-center py-2"> Current State of DACA  </h3>
+  </div>
+  </div>
+
+
+  <div class="row">
+      
+    <div class="col-md-6 col-12 pl-5 pt-3"> <p> DACA is short for Deferred Action Childhood Arrivals. DACA is a federal government program established by then-President Barack Obama in 2012 that allowed young people whose parents brought them to the United States illegally to be able to study, work, and support family in the US. DACA applicants were vetted for any criminal history, and if they passed and were accepted into the program, they could do basic things like get a license and apply for college or work permits.  The participants of this program are known as “Dreamers.” They need to have arrived in the US prior to turning 16. Many of them have been in this country practically their whole lives, so they wouldn’t be prepared to live anywhere else if they were to get deported.
+
+  </p> 
+  </div>
+  <div class="col-md-6 col-12 text-center"> 
+            
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div id="canvasContainer"></div>
+          </div>
+            </div>
+              </div>
+                <div class="graph"  id="canvasContainer"></div>
+                  </div>
+                    </div>
+                        <div class="row bg-primary text-white">
+                            <div class="col-12">
+                              <h3 class="text-center py-2"> Dreamer's Lives </h3>
+                               </div> 
+                                </div>
+                                  <div class= row> 
+                                    <p>Lots of Dreamers use the program to support themselves through school and enable them to work so they can take care of themselves and their children, younger siblings, and parents. This program being taken away will result in them losing thier opportunities in this country. </p>
+                                        </div>
+                                        <div class="row my-3"> 
+                                        <div class = "col-4"> 
+                                        <button type="button" class="btn btn-success btn-lg btn-block" onclick="family()"> family </button>
+  </div>
+  <div class = "col-4"> 
+  <button type="button" class="btn btn-success btn-lg btn-block" onclick="school()"> school </button>
+  </div>
+  <div class = "col-4"> 
+  <button type="button" class="btn btn-success btn-lg btn-block" onclick="work()"> work </button> 
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-6 col-12 px-4 "> 
+  <h4 id="category"> FAMILY </h4> 
+  <h5> By <span id="author" >  </span>  </h5>
+  <audio controls id="sound">
+  <source src="https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2014/01/YR_Luz_Social-Number_KCBS.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+        
+  </div>
+  <div class="col-md-6 col-12 px-4 mb-3">
+  <img src="" id="pic" class="img-fluid">
+  </div>
+       
+  </div>
+
+  <div class="row text-center bg-primary text-white">
+  <div class="col-12"> <h2> DACA Dissapearing</h2></div>
+  </div>
+  <div class="row"> 
+  <div class="col-12 col-md-6">
+  <div class="graph text-center" id="myGraphBar"></div>
+  </div>
+  <div class="col-md-6 col-12 pl-5 pt-3"> <p> From August to December 2017, 201,678 Dreamers will have their DACA/EAD certificates expired. 
+  55,258 of these people requested the renewal of their DACA to USCIS.
+  By 2018, 275,344 Dreamers will have their DACA/EAD certificates expired. 
+  7,271 of these people have requested for renewal.
+From January to  August 2019, 321,920 Dreamers will have their DACA/EAD certificates expired. Of these 321,920 individuals, eight have requested for renewal of DACA to USCIS.
+
+  </p> 
+
+
+  <p> 
+   
+  <a href="http://heretostay.unidosus.org/?gclid=Cj0KCQiAl8rQBRDrARIsAEW_To-aJ5lftfHLZMnRahZdREnf4iAJsiXHpwCgKkiv3_u1dyUJ4fbHp_caAvV5EALw_wcB"> How can you help Dreamers?</a>
+  </p>
+  </div>
+  </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
+
+  <script src="bubble.js" ></script>
+  <script src="bar.js"></script>
+  <script src="scriptLine.js"></script>
+<script src="script.js"></script>
+</body>
+  
+</html>
